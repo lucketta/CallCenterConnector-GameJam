@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 3773537229723708214}
   - component: {fileID: 7726628631630286042}
   m_Layer: 7
-  m_Name: Selected
+  m_Name: Selected_Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7338119306705516878}
   m_Layer: 7
-  m_Name: Obj_Visual
+  m_Name: CablePort_Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -230,6 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62df2690e864e17409c1db1300214392, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  portOccupied: 0
   selectedMaterial: {fileID: 2100000, guid: 7e037a56a8c08c04daf9941dbf6080fa, type: 2}
   myRenderer: {fileID: 409523414543944673}
 --- !u!1 &8810585364921057220

@@ -13,6 +13,7 @@ namespace StarterAssets
 	public class FirstPersonController : MonoBehaviour
 	{
         public event EventHandler OnInteractAction;
+        public event EventHandler OnInteractAlternateAction;
 
         [Header("Player")]
 		[Tooltip("Move speed of the character in m/s")]
@@ -116,6 +117,7 @@ namespace StarterAssets
 		private void Update()
 		{
 			InteractCheck();
+			InteractAlternateCheck();
             JumpAndGravity();
 			GroundedCheck();
 			Move();
@@ -130,6 +132,12 @@ namespace StarterAssets
 			if (_input.interact) {
                 _input.interact = false;
                 OnInteractAction?.Invoke(this, EventArgs.Empty);
+            }
+        }
+		private void InteractAlternateCheck() {
+			if (_input.interactAlternate) {
+                _input.interactAlternate = false;
+                OnInteractAlternateAction?.Invoke(this, EventArgs.Empty);
             }
         }
 
