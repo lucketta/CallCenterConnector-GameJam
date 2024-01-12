@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - Room1
+  - Room2
+  - Room3
+  - Room4
+  - Room5
   layers:
   - Default
   - TransparentFX

@@ -1340,7 +1340,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -1360,7 +1360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.5
+      value: -2.88
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1417,6 +1417,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1604,7 +1608,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1701413610}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -1681,6 +1685,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5523,7 +5531,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -5543,7 +5551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.5
+      value: -2.88
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5600,6 +5608,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6235,7 +6247,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1701413610}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -6312,6 +6324,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7986,7 +8002,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1294249058}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -8063,6 +8079,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9364,7 +9384,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -9441,6 +9461,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10400,6 +10424,47 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &361334853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 361334854}
+  m_Layer: 0
+  m_Name: Room1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &361334854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361334853}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 979414429}
+  - {fileID: 1673694907}
+  - {fileID: 1846607422}
+  - {fileID: 44460796}
+  - {fileID: 1379558778}
+  - {fileID: 473657332}
+  - {fileID: 215262602}
+  - {fileID: 1244029293}
+  - {fileID: 1664162348}
+  - {fileID: 4068649}
+  m_Father: {fileID: 826227443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &368142440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11428,7 +11493,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1701413610}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -11506,6 +11571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CablePort (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11517,7 +11586,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1701413610}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -11594,6 +11663,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13171,7 +13244,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -13191,7 +13264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.880836
+      value: 12.500835
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13248,6 +13321,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16654,7 +16731,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -16731,6 +16808,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17160,7 +17241,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1701413610}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -17237,6 +17318,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18879,7 +18964,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -18956,6 +19041,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20883,7 +20972,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -20960,6 +21049,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21989,7 +22082,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -22067,6 +22160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CablePort (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22078,7 +22175,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -22155,6 +22252,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23495,7 +23596,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -23572,6 +23673,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25964,7 +26069,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -26042,6 +26147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CablePort (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26077,46 +26186,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 979414429}
-  - {fileID: 1614442695}
-  - {fileID: 668438790}
-  - {fileID: 812636891}
-  - {fileID: 1672281616}
-  - {fileID: 2137573853}
-  - {fileID: 1571306426}
-  - {fileID: 590121497}
-  - {fileID: 948287246}
-  - {fileID: 478746234}
-  - {fileID: 433521805}
-  - {fileID: 1588862159}
-  - {fileID: 1673694907}
-  - {fileID: 1846607422}
-  - {fileID: 44460796}
-  - {fileID: 1343384949}
-  - {fileID: 4068649}
-  - {fileID: 1069981069}
-  - {fileID: 1199252131}
-  - {fileID: 2048846488}
-  - {fileID: 505113433}
-  - {fileID: 1525393079}
-  - {fileID: 2001540480}
-  - {fileID: 668057303}
-  - {fileID: 939693094}
-  - {fileID: 230291876}
-  - {fileID: 808069694}
-  - {fileID: 371072414}
-  - {fileID: 1761342653}
-  - {fileID: 1541349072}
-  - {fileID: 302267159}
-  - {fileID: 981804095}
-  - {fileID: 163764520}
-  - {fileID: 1638963628}
-  - {fileID: 431785882}
-  - {fileID: 1379558778}
-  - {fileID: 473657332}
-  - {fileID: 215262602}
-  - {fileID: 1244029293}
-  - {fileID: 1664162348}
+  - {fileID: 361334854}
+  - {fileID: 1012808686}
+  - {fileID: 1921287811}
+  - {fileID: 1294249058}
+  - {fileID: 1701413610}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &826227444
@@ -26720,7 +26794,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -26797,6 +26871,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27994,7 +28072,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -28071,6 +28149,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33400,6 +33482,47 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1012808685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1012808686}
+  m_Layer: 0
+  m_Name: Room2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1012808686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012808685}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.62, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1343384949}
+  - {fileID: 1069981069}
+  - {fileID: 1614442695}
+  - {fileID: 433521805}
+  - {fileID: 1588862159}
+  - {fileID: 1199252131}
+  - {fileID: 2048846488}
+  - {fileID: 505113433}
+  - {fileID: 1525393079}
+  - {fileID: 230291876}
+  m_Father: {fileID: 826227443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1017894918
 Mesh:
   m_ObjectHideFlags: 0
@@ -38351,7 +38474,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1701413610}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -38428,6 +38551,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39855,7 +39982,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1294249058}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -39932,6 +40059,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42950,6 +43081,40 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1294249057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1294249058}
+  m_Layer: 0
+  m_Name: Room4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1294249058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294249057}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 948287246}
+  - {fileID: 981804095}
+  - {fileID: 163764520}
+  m_Father: {fileID: 826227443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1295087886
 GameObject:
   m_ObjectHideFlags: 0
@@ -47853,7 +48018,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -47930,6 +48095,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -50879,7 +51048,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -50956,6 +51125,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53558,7 +53731,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -53635,6 +53808,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -54165,7 +54342,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -54243,6 +54420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CablePort (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -54254,7 +54435,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -54274,7 +54455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 10.62
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -54331,6 +54512,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -54927,7 +55112,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -55004,6 +55189,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -55639,7 +55828,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -55717,6 +55906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CablePort (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55728,7 +55921,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1921287811}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -55805,6 +55998,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -58628,7 +58825,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -58648,7 +58845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.6191695
+      value: 6.0008307
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -58705,6 +58902,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -58892,7 +59093,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1701413610}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -58969,6 +59170,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59708,6 +59913,44 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1701413609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1701413610}
+  m_Layer: 0
+  m_Name: Room5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1701413610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701413609}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 668438790}
+  - {fileID: 812636891}
+  - {fileID: 1672281616}
+  - {fileID: 2137573853}
+  - {fileID: 1571306426}
+  - {fileID: 590121497}
+  - {fileID: 478746234}
+  m_Father: {fileID: 826227443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1713865254
 GameObject:
   m_ObjectHideFlags: 0
@@ -60067,7 +60310,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1294249058}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -60144,6 +60387,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60387,7 +60634,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -60407,7 +60654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.869164
+      value: -2.2491646
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -60464,6 +60711,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -61347,7 +61598,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -61424,6 +61675,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -61985,7 +62240,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -62062,6 +62317,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -63619,7 +63878,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -63639,7 +63898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.380829
+      value: 17.000828
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -63696,6 +63955,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -64556,7 +64819,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -64576,7 +64839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.119164
+      value: 0.5008354
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -64633,6 +64896,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -65220,7 +65487,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -65240,7 +65507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2383308
+      value: 7.381669
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -65297,6 +65564,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -67960,6 +68231,47 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1921287810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921287811}
+  m_Layer: 0
+  m_Name: Room3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1921287811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921287810}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2001540480}
+  - {fileID: 668057303}
+  - {fileID: 939693094}
+  - {fileID: 808069694}
+  - {fileID: 371072414}
+  - {fileID: 1761342653}
+  - {fileID: 1541349072}
+  - {fileID: 302267159}
+  - {fileID: 1638963628}
+  - {fileID: 431785882}
+  m_Father: {fileID: 826227443}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1933529967
 GameObject:
   m_ObjectHideFlags: 0
@@ -72696,7 +73008,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 1012808686}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -72716,7 +73028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.261667
+      value: 20.881668
       objectReference: {fileID: 0}
     - target: {fileID: 6283403079399073372, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_LocalPosition.y
@@ -72773,6 +73085,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -76537,7 +76853,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 826227443}
+    m_TransformParent: {fileID: 361334854}
     m_Modifications:
     - target: {fileID: 92672476089314185, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: selectedMaterial
@@ -76614,6 +76930,10 @@ PrefabInstance:
     - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
       propertyPath: m_Name
       value: CablePort
+      objectReference: {fileID: 0}
+    - target: {fileID: 8745541449154610321, guid: fe4a56e24368ff749b8da9277c9e8753, type: 3}
+      propertyPath: m_TagString
+      value: Room1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
