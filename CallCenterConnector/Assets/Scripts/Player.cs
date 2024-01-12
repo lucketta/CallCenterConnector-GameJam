@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Player;
 
 public class Player : MonoBehaviour {
 
@@ -12,6 +13,13 @@ public class Player : MonoBehaviour {
     public class OnSelectedCablePortChangedEventArgs : EventArgs {
         public CablePort selectedCablePort;
     }
+
+
+    public bool HasCable;
+    public LineRenderer RopeLine;
+    public RopeRenderer RopeRenderer;
+    public List<Vector3> RopePositions;
+
 
     [SerializeField] private float interactMaxDistance = 2f;
     [SerializeField] private float playerHeight = 1.35f;
@@ -36,14 +44,22 @@ public class Player : MonoBehaviour {
 
         firstPersonController = GetComponent<FirstPersonController>();
         firstPersonController.OnInteractAction += _input_OnInteractAction;
+        firstPersonController.OnInteractAlternateAction += _input_OnInteractAlternateAction;
+
+        RopeRenderer = new RopeRenderer();
     }
 
     private void Update() {
-        
+
         Vector3 forward = Camera.main.transform.forward * 10;
         Debug.DrawRay(transform.position + new Vector3(0f, playerHeight, 0f), forward, Color.red);
 
-        HandleInteractions();        
+        HandleInteractions();
+    }
+
+    public void InitializeRopeLine() {
+        RopeLine = new GameObject().AddComponent<LineRenderer>();
+        RopePositions = new List<Vector3>();
     }
 
     private void HandleInteractions() {
@@ -72,6 +88,12 @@ public class Player : MonoBehaviour {
     private void _input_OnInteractAction(object sender, System.EventArgs e) {
         if (selectedCablePort != null) {
             selectedCablePort.Interact(this);
+        }
+    }
+
+    private void _input_OnInteractAlternateAction(object sender, EventArgs e) {
+        if (selectedCablePort != null) {
+            selectedCablePort.InteractAlternate(this);
         }
     }
 
