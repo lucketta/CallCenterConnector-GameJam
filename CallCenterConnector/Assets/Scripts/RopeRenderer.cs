@@ -38,7 +38,6 @@ public class RopeRenderer : MonoBehaviour {
 
     private void UpdateRopePositions() {
         Player.Instance.RopeLine.positionCount = Player.Instance.RopePositions.Count;
-        Debug.Log("postions count: " + Player.Instance.RopeLine.positionCount);
         Player.Instance.RopeLine.SetPositions(Player.Instance.RopePositions.ToArray());
     }
 
@@ -50,7 +49,6 @@ public class RopeRenderer : MonoBehaviour {
         RaycastHit hit;
         if (Physics.Linecast(Player.Instance.transform.position + new Vector3(0, offsetHeight, 0), Player.Instance.RopeLine.GetPosition(Player.Instance.RopePositions.Count - 2), out hit, colliderMask)) {
             // Check for duplicated collision (two collisions at the same place).
-            Debug.Log("HIT: " + hit);
 
             if (System.Math.Abs(Vector3.Distance(Player.Instance.RopeLine.GetPosition(Player.Instance.RopePositions.Count - 2), hit.point)) > minCollisionDistance) {
                 Player.Instance.RopePositions.RemoveAt(Player.Instance.RopePositions.Count - 1);
@@ -67,7 +65,6 @@ public class RopeRenderer : MonoBehaviour {
     }
 
     private void LastSegmentGoToPlayerPos() {
-        Debug.Log("playerpos: " + Player.Instance.transform.position);
         Player.Instance.RopeLine.SetPosition(Player.Instance.RopeLine.positionCount - 1, Player.Instance.transform.position + new Vector3(0, offsetHeight, 0));
     }
 }
