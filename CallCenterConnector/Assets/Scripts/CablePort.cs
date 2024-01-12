@@ -13,8 +13,6 @@ public class CablePort : MonoBehaviour
     private GameObject Rope;
 
     public void Interact(Player player) {
-        //Debug.Log("Cable Port Interacted!");
-
         if (!Player.Instance.HasCable && !portOccupied) {
             // Player isn't holding cable so generate new cable
             portOccupied = true;
