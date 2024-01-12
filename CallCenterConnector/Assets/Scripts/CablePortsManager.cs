@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CablePortsManager : MonoBehaviour
 {
-    private float countDownTime = 30f;
+    [SerializeField] private float countDownTime = 30f;
     private CablePort[] ports;
     private int numberSelected = 0;
     public void Start()
@@ -79,7 +79,7 @@ public class CablePortsManager : MonoBehaviour
             }
             //have an even number of ports in the scene
             port1 = SelectRandomPort();
-            port2 = SelectClosestPort(port1);
+            port2 = SelectRandomPort();
             if (port1 == null || port2 == null)
             {
                 Debug.Log("Not enough ports (Activate Ports)");
