@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1685527054	MX			\Default Work Unit\MX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	835447876	sx_Uni_Int_Music_MX_150_BPM	S:\Switchboard Scuttle (Game)\Switchboard Scuttle\CallCenterConnector-GameJam\CallCenterConnector\CallCenterConnector_WwiseProject\.cache\Mac\SFX\sx_Uni_Int_Music_MX_150_BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MX\sx_Uni_Int_Music_MX_150_BPM\sx_Uni_Int_Music_MX_150_BPM		13516896
+

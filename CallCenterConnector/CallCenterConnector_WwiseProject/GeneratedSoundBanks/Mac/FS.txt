@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1802970376	FS			\Default Work Unit\FS	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	2058049674	Wood	Material			
+	2637588553	Tile	Material			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	298241409	sx_Uni_Ply_Tile Footstep_Foley_5	S:\Switchboard Scuttle (Game)\Switchboard Scuttle\CallCenterConnector-GameJam\CallCenterConnector\CallCenterConnector_WwiseProject\.cache\Mac\SFX\sx_Uni_Ply_Tile Footstep_Foley_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FS\FS Tile\sx_Uni_Ply_Tile Footstep_Foley_5		96096
+	495574983	sx_Uni_Ply_Tile Footstep_Foley_1	S:\Switchboard Scuttle (Game)\Switchboard Scuttle\CallCenterConnector-GameJam\CallCenterConnector\CallCenterConnector_WwiseProject\.cache\Mac\SFX\sx_Uni_Ply_Tile Footstep_Foley_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FS\FS Tile\sx_Uni_Ply_Tile Footstep_Foley_1		75096
+	670182487	sx_Uni_Ply_Tile Footstep_Foley_6	S:\Switchboard Scuttle (Game)\Switchboard Scuttle\CallCenterConnector-GameJam\CallCenterConnector\CallCenterConnector_WwiseProject\.cache\Mac\SFX\sx_Uni_Ply_Tile Footstep_Foley_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FS\FS Tile\sx_Uni_Ply_Tile Footstep_Foley_6		96096
+	737289217	sx_Uni_Ply_Tile Footstep_Foley_4	S:\Switchboard Scuttle (Game)\Switchboard Scuttle\CallCenterConnector-GameJam\CallCenterConnector\CallCenterConnector_WwiseProject\.cache\Mac\SFX\sx_Uni_Ply_Tile Footstep_Foley_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FS\FS Tile\sx_Uni_Ply_Tile Footstep_Foley_4		96096
+	749839694	sx_Uni_Ply_Tile Footstep_Foley_2	S:\Switchboard Scuttle (Game)\Switchboard Scuttle\CallCenterConnector-GameJam\CallCenterConnector\CallCenterConnector_WwiseProject\.cache\Mac\SFX\sx_Uni_Ply_Tile Footstep_Foley_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FS\FS Tile\sx_Uni_Ply_Tile Footstep_Foley_2		96096
+	935685295	sx_Uni_Ply_Tile Footstep_Foley_3	S:\Switchboard Scuttle (Game)\Switchboard Scuttle\CallCenterConnector-GameJam\CallCenterConnector\CallCenterConnector_WwiseProject\.cache\Mac\SFX\sx_Uni_Ply_Tile Footstep_Foley_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FS\FS Tile\sx_Uni_Ply_Tile Footstep_Foley_3		96096
+
