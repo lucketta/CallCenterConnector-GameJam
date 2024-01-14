@@ -5,8 +5,15 @@ using UnityEngine;
 public class CablePortsManager : MonoBehaviour
 {
     [SerializeField] private float countDownTime = 30f;
-    private CablePort[] ports;
+    [SerializeField] private GameObject LossCanvas;
+    [SerializeField] private GameObject WinCanvas;
+    [SerializeField] private AudioSource BGM;
+    [SerializeField] private AudioSource ambianceSound;
+    public float currentTime;
+    public CablePort[] ports;
     private int numberSelected = 0;
+    public int numberOccupied = 0;
+
     public void Start()
     {
         //get all ports when game starts
@@ -79,18 +86,17 @@ public class CablePortsManager : MonoBehaviour
     {
         CablePort port1;
         CablePort port2;
-        float currentTime;
 
         while (numberSelected <= ports.Length)
         {
             if(numberSelected == ports.Length)
             {
-                Debug.Log("All Ports selected. You win (?)");
+                GameWon();
                 yield break;
             }
             //have an even number of ports in the scene
             port1 = SelectRandomPort();
-            port2 = SelectRandomPort();
+            port2 = SelectClosestPort(port1);
             if (port1 == null || port2 == null)
             {
                 Debug.Log("Not enough ports (Activate Ports)");
@@ -100,12 +106,38 @@ public class CablePortsManager : MonoBehaviour
             Debug.Log("Ports activated!");
             currentTime = countDownTime;
 
-            while (currentTime > 0)
+            while (currentTime >= 0)
             {
                 yield return new WaitForSeconds(1f);
                 currentTime--;
                 Debug.Log("Countdown: " + currentTime);
+                if (port1.portOccupied && port2.portOccupied)
+                {
+                    Debug.Log("Attached successfully! :D");
+                    numberOccupied++;
+                    break;
+                }
+                else if(currentTime == 0 && (!port1.portOccupied || !port2.portOccupied))
+                {
+                    port1.portSFX.Stop();
+                    port2.portSFX.Stop();
+                    GameOver();
+                    yield break;
+                }
             }
         }
+    }
+    public void GameOver()
+    {
+        BGM.Stop();
+        LossCanvas.SetActive(true);
+        Debug.Log("Game over :-(");
+    }
+
+    public void GameWon()
+    {
+        BGM.Stop();
+        WinCanvas.SetActive(true);
+        Debug.Log("All Ports occupied. You win! :D");
     }
 }
