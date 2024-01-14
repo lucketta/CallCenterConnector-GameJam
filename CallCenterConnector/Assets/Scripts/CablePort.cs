@@ -10,9 +10,12 @@ public class CablePort : MonoBehaviour
     public bool portOccupied;
     [SerializeField] public Material selectedMaterial;
     [SerializeField] public MeshRenderer myRenderer;
+    [SerializeField] public AudioSource portSFX;
     private GameObject Rope;
 
     public void Interact(Player player) {
+        portSFX.Stop();
+        Debug.Log("Interacted :D");
         if (!Player.Instance.HasCable && !portOccupied) {
             // Player isn't holding cable so generate new cable
             portOccupied = true;
