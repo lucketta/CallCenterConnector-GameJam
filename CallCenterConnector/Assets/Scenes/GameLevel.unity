@@ -13000,7 +13000,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8c59923ebfebb1c45b1612227d4d23c1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -72395,6 +72395,8 @@ MonoBehaviour:
   LossCanvas: {fileID: 2124373393}
   WinCanvas: {fileID: 392181644}
   BGM: {fileID: 71756826}
+  _2LivesMusic: {fileID: 8300000, guid: 0bbd09c0b2fb6b64bb392970542d1671, type: 3}
+  _1LiveMusic: {fileID: 8300000, guid: 9dab4998ad0770e40a7e68d7f4c7858b, type: 3}
   ambianceSound: {fileID: 1020569190}
   currentTime: 0
   lives: 3
