@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CablePortsManager : MonoBehaviour
 {
@@ -149,14 +150,14 @@ public class CablePortsManager : MonoBehaviour
     public void GameOver()
     {
         BGM.Stop();
-        LossCanvas.SetActive(true);
+        SceneManager.LoadScene(2);
         Debug.Log("Game over :-(");
     }
 
     public void GameWon()
     {
         BGM.Stop();
-        WinCanvas.SetActive(true);
+        SceneManager.LoadScene(3);
         Debug.Log("All Ports occupied. You win! :D");
     }
 }

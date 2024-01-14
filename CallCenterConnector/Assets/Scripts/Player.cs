@@ -34,6 +34,8 @@ public class Player : MonoBehaviour {
         if (Instance != null) {
             Debug.LogError("There is more than one Player Instance!");
         }
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
 
         Instance = this;
     }
