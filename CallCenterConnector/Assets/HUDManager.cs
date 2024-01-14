@@ -20,8 +20,8 @@ public class HUDManager : MonoBehaviour
         numberOccupied = gameManager.numberOccupied;
         lives = gameManager.lives;
 
-        timeText.text = $"Time Left: {currentTime}";
-        scoreText.text = $"Score: {numberOccupied}/{(gameManager.ports.Length/2)}";
-        numLives.text = $"Lives left: {lives} / 3";
+        timeText.text = $"{currentTime}";
+        scoreText.text = $"{numberOccupied}/{(gameManager.ports.Length/2)}";
+        numLives.text = $"{lives}/3";
     }
 }
