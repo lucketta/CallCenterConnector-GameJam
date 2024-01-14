@@ -58,6 +58,17 @@ public class CablePortsManager : MonoBehaviour
             myPort = ports[index];
         }
         myPort.myRenderer.material = myPort.selectedMaterial;
+        myPort.portSFX.Play();
+        if (myPort.portSFX.isPlaying)
+        {
+            Debug.Log(myPort.portSFX.volume);
+            Debug.Log("Audio Played");
+        }
+        else
+        {
+            Debug.Log(myPort.portSFX.clip.name);
+            Debug.Log("Audio failed to play");
+        }
         myPort.wasSelected = true;
         numberSelected++;
 
