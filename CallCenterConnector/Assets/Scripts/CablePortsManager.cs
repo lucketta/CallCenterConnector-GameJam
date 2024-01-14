@@ -8,8 +8,11 @@ public class CablePortsManager : MonoBehaviour
     [SerializeField] private GameObject LossCanvas;
     [SerializeField] private GameObject WinCanvas;
     [SerializeField] private AudioSource BGM;
+    [SerializeField] private AudioClip _2LivesMusic;
+    [SerializeField] private AudioClip _1LiveMusic;
     [SerializeField] private AudioSource ambianceSound;
     public float currentTime;
+    public int lives = 3;
     public CablePort[] ports;
     private int numberSelected = 0;
     public int numberOccupied = 0;
@@ -119,10 +122,26 @@ public class CablePortsManager : MonoBehaviour
                 }
                 else if(currentTime == 0 && (!port1.portOccupied || !port2.portOccupied))
                 {
-                    port1.portSFX.Stop();
-                    port2.portSFX.Stop();
-                    GameOver();
-                    yield break;
+                    lives--;
+                    if(lives == 2)
+                    {
+                        Debug.Log("2 lives left");
+                        BGM.clip = _2LivesMusic;
+                        BGM.Play();
+                    }
+                    if(lives == 1)
+                    {
+                        Debug.Log("1 life left");
+                        BGM.clip = _1LiveMusic;
+                        BGM.Play();
+                    }
+                    if(lives == 0)
+                    {
+                        port1.portSFX.Stop();
+                        port2.portSFX.Stop();
+                        GameOver();
+                        yield break;
+                    }
                 }
             }
         }
